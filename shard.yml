@@ -1,5 +1,5 @@
 name: mochi
-version: 0.3.1
+version: 0.3.2
 
 authors:
   - andrewc910 <awcrotwell@gmail.com>
@@ -7,7 +7,6 @@ authors:
 dependencies:
   quartz_mailer:
     github: amberframework/quartz-mailer
-    branch: master
 
   json_mapping:
     github: crystal-lang/json_mapping.cr
@@ -15,23 +14,18 @@ dependencies:
 development_dependencies:
   granite:
     github: amberframework/granite
-    branch: master
 
   jennifer:
     github: imdrasil/jennifer.cr
-    branch: master
 
   sam:
     github: imdrasil/sam.cr
-    branch: master
 
   amber:
     github: amberframework/amber
-    branch: master
 
   ameba:
     github: crystal-ameba/ameba
-    version: ~> 0.11.0
 
 crystal: 0.35.0
 
